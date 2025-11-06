@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require_once "includes/head.php" ?>
+    <?php require_once "includes/head.php"; ?>
     <title>Overview</title>
 </head>
 <body>
-    <?php require_once "includes/nav.php" ?>
+    <?php require_once "includes/nav.php"; ?>
 
     <h1>Home</h1>
     

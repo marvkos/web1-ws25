@@ -5,11 +5,7 @@
     <title>Home</title>
 </head>
 <body>
-    <?php
-
-        require_once "includes/nav.php";
-    
-    ?>
+    <?php require_once "includes/nav.php"; ?>
 
     <div class="container">
         <div class="row">

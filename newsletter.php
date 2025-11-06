@@ -5,11 +5,7 @@
     <title>Newsletter</title>
 </head>
 <body>
-    <?php
-
-        require_once "includes/nav.php";
-
-    ?>
+    <?php require_once "includes/nav.php"; ?>
 
     <form method="post" action="logic/formhandler/registration_form.php">
         <div class="mb-3">
