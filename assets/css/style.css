@@ -1,0 +1,11 @@
+.navbar .nav-item .nav-link.active {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}

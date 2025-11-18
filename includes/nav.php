@@ -2,7 +2,8 @@
 
 $filename = basename($_SERVER['SCRIPT_NAME']);
 
-function active($filename, $target) {
+function active($filename, $target)
+{
     if ($filename === $target) {
         echo "active";
     }
@@ -12,8 +13,9 @@ function active($filename, $target) {
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
-        <a class="navbar-brand" href="/index.php">My App</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.php">My App</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -28,7 +30,14 @@ function active($filename, $target) {
                     <a class="nav-link <?php active($filename, "progress.php") ?>" href="progress.php">Progress</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php active($filename, "newsletter.php") ?>" href="newsletter.php">Newsletter</a>
+                    <a class="nav-link <?php active($filename, "newsletter.php") ?>"
+                        href="newsletter.php">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php active($filename, "upload.php") ?>" href="upload.php">Upload</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php active($filename, "register.php") ?>" href="register.php">Register</a>
                 </li>
             </ul>
         </div>
